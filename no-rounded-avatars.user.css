@@ -1,0 +1,18 @@
+/* ==UserStyle==
+@name        GitHub No Rounded Avatars
+@namespace   github.com/geniiii/no-rounded-avatars
+@version     1.0.0
+@license     MIT
+@author      geni
+==/UserStyle== */
+
+@-moz-document
+  domain("github.com") {
+    .avatar-user {
+        border-radius: 0%!important;
+    }
+
+    .avatar {
+        border-radius: 0px;
+    }
+}
