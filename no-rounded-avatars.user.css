@@ -6,13 +6,17 @@
 @author      geni
 ==/UserStyle== */
 
-@-moz-document
-  domain("github.com") {
+@-moz-document domain("github.com") {
     .avatar-user {
         border-radius: 0%!important;
     }
 
     .avatar {
         border-radius: 0px;
+    }
+
+    .user-status-circle-badge-container {
+        margin-bottom: -5%;
+        margin-left: -10%;
     }
 }
